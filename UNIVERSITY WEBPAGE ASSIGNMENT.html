@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout and structure</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+<style>
+ col{
+  border: 1px;
+ }
+ 
+.image{
+  width: 200px;
+
+}
+body{
+  background-color: bisque;
+  /* background-image: url(uganda\ martyrs\ univerty\ jpn.png);
+  background-repeat: no-repeat;
+  background-position: 100%; */
+}
+#jack{
+  background-color: aquamarine;
+}
+#kal{
+  background-color: beige;
+}
+#maria{
+  background-color: aquamarine;
+}
+h4{
+  color: red;
+  text-align: center;
+}
+#mine-footer{
+  background-color: grey;
+  color: black;
+  padding:2px; 
+}
+footer{
+  padding:3px;
+}
+#read{
+  border-radius: 40%;
+}
+#course{
+  color: red;
+}
+</style>
+<body>
+   
+    <header>
+<nav class="navbar navbar-light bg-primary">
+  <a class="navbar-brand" href="#">
+    <img src="uganda martyrs univerty jpn.png" width="70" height="70" alt="">
+  </a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Courses <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+        
+        
+      </ul>
+    </div>
+  </nav>
+</nav>
+    </header>
+    <br>
+       <section>
+        <div class="container">
+           <div class="row">
+            <div class="col-md-6 col-lg-6">
+              <h4 class="p-3 fs-5 border bgseconadry">WELCOME &#x1F60A;!!!</h4>
+              <p>UGANDA MARTYRS UNIVERSITY</p>
+              <p>Its the only catholic university located at the equator</p>
+              <p>Its a private chartered university that offers quality higher education to the students</p>
+              <h6>Mission : To provide quality higher education training and research for the betterment of the society guided by ethical values.</h6>
+            </div>
+            <div class="col-md-6">
+              <p class="p-3 fs-5 border bglight" id="course">COURSES OFFERED AT UMU</p>
+              <div class="card text-danger" style="width: 18rem;" id="jack">
+                <div class="card-body">
+                  <h5 class="card-title">Bachelors of business Administration</h5>
+                  <p class="card-text">This course is meant to skill students more in business admistration and management</p>
+                  <a href="#" class="btn btn-primary" id="read">Read more</a>
+                </div>
+              </div>
+              
+              <div class="card text-primary" style="width: 18rem;" id="kal">
+                <div class="card-body">
+                  <h5 class="card-title">Bachelors of Law</h5>
+                  <p class="card-text">This course is meant to skill future lawyers.</p>
+                  <p>Moot sessions are as well carried out at the university to enable students experience real life scenarios</p>
+                  <a href="#" class="btn btn-primary" id="read">Read more</a>
+                </div>
+              </div>
+              
+              <div class="card text-secondary" style="width: 18rem;" id="maria">
+                <div class="card-body">
+                  <h5 class="card-title">Diploma in Computer Science</h5>
+                  <p class="card-text">This course lies under the science faculty.</p>
+                  <p>It mainly skills students in programming and web development</p>
+                  <a href="#" class="btn btn-primary" id="read">Read more</a>
+                </div>
+              </div>
+              
+              </div>
+           </div>
+           
+        </div>
+       </section>
+       <br>
+     <footer id="mine-footer" class="bg-light text-center text-lg-start mt-5">
+      <div class="container p-4">
+        <p>Uganda Martyrs University</p>
+        <p>P.O Box 5498, Mpigi, Uganda</p>
+<p>
+  &copy; 2024@UMU. All rights reserved.
+</p>
+      </div>
+
+     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    
+</body>
+</html>
